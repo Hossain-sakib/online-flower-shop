@@ -25,6 +25,7 @@
 }
 
 .btn {
+    margin-top: 30px;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -46,7 +47,7 @@
 
 /*main section */
 
-.all-features{
+.all-features {
     margin-left: 250px;
     margin-right: 250px;
 }
@@ -73,8 +74,9 @@
 /*featured flower section*/
 .features-img {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 40px;
+    margin-top: 50px;
     color: #272727;
     text-align: center;
     font-size: 24px;
@@ -85,6 +87,8 @@
 }
 
 .bg {
+    width: 290px;
+    height: 420px;
     border-radius: 300px 300px 0px 0px;
     padding: 110px 75px 0px 75px;
 
@@ -92,7 +96,7 @@
 
 .bgclr1 {
     background: rgba(167, 33, 98, 0.15);
-    
+
 }
 
 .bgclr2 {
@@ -103,13 +107,30 @@
     background: rgba(71, 125, 17, 0.15);
 }
 
-.support{
-    margin-top: 160px;
+.support {
+    margin-top: 170px;
     display: flex;
     text-align: center;
-    justify-content: space-around;
-    justify-items: ;
-    padding: 85px;
+    justify-content: space-between;
+    padding: 150px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+}
+
+.discount {
+  
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    gap: 180px;
+}
+.discount-details{
+    padding: 230px 0px 180px 400px;
+}
+.rose{
+    padding: 100px 400px 100px 0px;
 }
