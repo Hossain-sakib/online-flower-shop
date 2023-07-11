@@ -1,5 +1,30 @@
 * {
-    font-family: Lato;
+    font-family: ;
+}
+
+/*navigation*/
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E55473;
+    height: 80px;
+    padding: 10px 150px;
+
+}
+.nav-items {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+}
+a{
+    padding: 8px;
+    border:1px solid #584f4f;
+    border-radius: 5px;
+    color: #272727;
+    text-decoration: none;
 }
 
 /*banner section*/
@@ -7,7 +32,7 @@
 .banner {
     text-align: left;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background: rgba(229, 84, 115, 0.10);
 
 }
@@ -56,7 +81,7 @@
     margin-top: 120px;
     margin-bottom: 20px;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .features-heading {
@@ -74,7 +99,7 @@
 /*featured flower section*/
 .features-img {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 40px;
     margin-top: 50px;
     color: #272727;
@@ -112,7 +137,7 @@
     margin-top: 170px;
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 150px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
@@ -124,7 +149,7 @@
     text-align: center;
     margin-top: 170px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     gap: 180px;
@@ -146,38 +171,34 @@
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 25px;
-    margin: 0px 240px 130px 240px;
+    margin: 0px 220px 130px 220px;
 }
-
-.subscribe {
+.subscribe{
+    margin: 170px 220px;
+    background-image: url("./Flower Asset/Rectangle\ 9.png");
+    background-position: center;
     text-align: center;
-    background: url("./Flower Asset/Rectangle\ 9.png");
-    background-repeat: no-repeat;
-    margin: 0px 200px 130px 240px;
-    padding: 120px 300px 120px 300px;
+    justify-items: center;
+    padding: 120px 280px 120px 280px;background-repeat: no-repeat;
 }
-
-.input {
-    width: 700px;
-    height: 50px;
-    margin-top: 30px;
+.mail{
     border: none;
     border-radius: 8px;
-    padding: 10px 0px 10px 10px;
+    height: 20px;
+    width: 400px;
+    padding: 20px 20px;
 }
-
-.email {
-    display: flex;
+.subs-bar{
     gap: 20px;
-    justify-content: space-around;
 }
 
 /* footer section*/
 
 .footer {
     text-align: center;
+    border-radius: 8px;
     background: #111010;
     padding: 110px 500px;
 }
