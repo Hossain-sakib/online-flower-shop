@@ -101,6 +101,7 @@
 
 .bgclr2 {
     background: rgba(5, 151, 160, 0.15);
+
 }
 
 .bgclr3 {
@@ -118,7 +119,7 @@
 }
 
 .discount {
-  
+
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     margin-top: 170px;
@@ -128,9 +129,47 @@
     background: rgba(229, 84, 115, 0.05);
     gap: 180px;
 }
-.discount-details{
+
+.discount-details {
     padding: 230px 0px 180px 400px;
 }
-.rose{
-    padding: 100px 400px 100px 0px;
+
+.rose {
+    padding: 120px 400px 120px 0px;
+}
+
+.instagram {
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 0px 240px 130px 240px;
+}
+
+.subscribe {
+    text-align: center;
+    background: url("./Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    margin: 0px 240px 130px 240px;
+    padding: 120px 300px 120px 300px;
+}
+
+.input {
+    width: 700px;
+    height: 50px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 0px 10px 10px;
+}
+
+.email {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
 }
